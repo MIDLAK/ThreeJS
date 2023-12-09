@@ -5,3 +5,16 @@
 - vite ```npm install --save-dev vite```
 
 Vite - инструмент сборки, он не является частью приложения.
+
+## Если возникли ошибки с npx vite:
+Необходимо установить nvm
+
+```sudo apt install curl```
+
+```curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash```
+
+```source ~/.bashrc```
+
+И установить node:
+
+```nvm install node```
