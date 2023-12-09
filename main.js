@@ -47,23 +47,23 @@ window.onload = () => {
                 rotate += 2
         }
         camera.lookAt(camera.position.x + rotate, 0, 0)
-        //render()
         renderer.render(scene, camera)
     });
 
 
+    renderer.render(scene, camera)
+}
+
     /**
      * Функция рендеринка (отрисовки) сцены
      */
-    function render() {
-        requestAnimationFrame(render)
+    //function render() {
+     //   //requestAnimationFrame(render)
 
         //cube.rotation.x += 0.01
         //cube.rotation.y += 0.01
         //cube.rotation.z += 0.01
 
-        renderer.render(scene, camera)
-    }
+        //renderer.render(scene, camera)
+    //}
     //render()
-    renderer.render(scene, camera)
-}
